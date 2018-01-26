@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<productDefines xmlns="http://www.suse.com/1.0/yast2ns" xmlns:config="http://www.suse.com/1.0/configns">
+
+<!--
+Work around for the text domain
+textdomain="control"
+-->
+
+    <textdomain>control</textdomain>
+
+    <texts>
+      <gnome_x11_desktop_host_role>
+        <!-- TRANSLATORS: a label for a system role -->
+        <label>GNOME Desktop (X11)</label>
+      </gnome_x11_desktop_host_role>
+      <gnome_x11_desktop_host_role_description>
+        <label>• Full featured GNOME desktop environment, including Office suite, E-Mail client, File Manager.
+• Support remote access to GNOME desktop environment.</label>
+      </gnome_x11_desktop_host_role_description>
+    </texts>
+
+    <update>
+      <system_roles>
+        <insert_system_roles config:type="list">
+          <insert_system_role>
+            <!-- FATE#324198 -->
+            <system_roles config:type="list">
+              <system_role>
+                <id>gnome_x11_desktop_host_role</id>
+                <order config:type="integer">3100</order>
+                <software>
+                  <default_patterns>base enhanced_base yast2_basis x11_yast x11 gnome_x11</default_patterns>
+                  <optional_default_patterns><![CDATA[]]></optional_default_patterns>
+                </software>
+              </system_role>
+            </system_roles>
+          </insert_system_role>
+        </insert_system_roles>
+      </system_roles>
+    </update>
+</productDefines>
