@@ -35,7 +35,7 @@ BuildRequires:  yast2-installation-control >= 4.0.0
 
 Url:            https://github.com/yast/system-role-gnome-x11
 AutoReqProv:    off
-Version:        15.0.0
+Version:        15.0.1
 Release:        0
 Summary:        Gnome role definition
 License:        MIT
