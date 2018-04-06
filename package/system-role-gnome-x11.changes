@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Apr  6 14:02:54 UTC 2018 - fcrozat@suse.com
+
+- Add gnome_multimedia pattern (bsc#1080203).
+- 15.0.1
+
+-------------------------------------------------------------------
 Fri Jan 26 14:26:09 UTC 2018 - fcrozat@suse.com
 
 - Initial package (needed for having roles in their own package for
