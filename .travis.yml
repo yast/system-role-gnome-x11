@@ -6,4 +6,4 @@ services:
 before_install:
   - docker build -t yast-system-role-gnome-x11 .
 script:
-  - docker run -it -e TRAVIS=1 -e TRAVIS_JOB_ID="$TRAVIS_JOB_ID" system-role-gnome-x11 ./.travis.sh
+  - docker run -it -e TRAVIS=1 -e TRAVIS_JOB_ID="$TRAVIS_JOB_ID" yast-system-role-gnome-x11 ./.travis.sh
