@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Tue Apr 20 13:51:55 UTC 2021 - Ladislav Slezák <lslezak@suse.cz>
+
+- 15.4.0
+
+-------------------------------------------------------------------
 Mon Nov 12 14:57:46 UTC 2018 - mvidner@suse.com
 
 - Correct the file name to make system roles reappear (bsc#1115607)
